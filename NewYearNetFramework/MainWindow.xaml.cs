@@ -185,10 +185,8 @@ namespace NewYearNetFramework
                 currentUser.OpenSubKey(@"SOFTWARE\NewYearTime", true).SetValue("ImagePath", $@"{fileDialog.FileName}");
             }
         }
-        private void TopMost(object sender, RoutedEventArgs e)
-        {
-            Topmost = !Topmost;
-        }
+        private void TopMost(object sender, RoutedEventArgs e) => Topmost = !Topmost;
+
         private void DefaultBackground(object sender, RoutedEventArgs e)
         {
             
