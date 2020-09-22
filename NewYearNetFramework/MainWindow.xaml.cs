@@ -186,7 +186,6 @@ namespace NewYearNetFramework
             }
         }
         private void TopMost(object sender, RoutedEventArgs e) => Topmost = !Topmost;
-
         private void DefaultBackground(object sender, RoutedEventArgs e)
         {
             
