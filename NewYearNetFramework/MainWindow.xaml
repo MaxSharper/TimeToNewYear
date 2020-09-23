@@ -39,9 +39,9 @@
 
         <Image Source="question.png" Grid.Column="1" Margin="322.4,2,-4.6,196.8" MouseDown="Image_MouseDown"></Image>
         <Label Grid.Column="0" Name="newYearDateLabel" Content="00:00:00:00" Foreground="White" FontSize="68" Grid.ColumnSpan="2" Margin="92,150,45,91" Grid.RowSpan="2" FontWeight="Bold"/>
-        <Label Grid.Column="0" Grid.Row="1" FontSize="35" Content="Days" Grid.ColumnSpan="2" Margin="107,18.2,-78.6,-3.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
-        <Label Grid.Column="0" Grid.Row="1" FontSize="35" Content="Hours" Grid.ColumnSpan="2" Margin="257,18.2,-228.6,-26.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
-        <Label Grid.Column="1" Grid.Row="1" FontSize="30" Content="Minutes" Margin="44.4,24.2,-291.6,-26.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
-        <Label Grid.Column="1" Grid.Row="1" FontSize="30" Content="Seconds" Margin="192.4,23.2,24.4,-26.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
+        <Label Grid.Column="0" Grid.Row="1" FontSize="35" Content="Days" Grid.ColumnSpan="2" Margin="98,15.2,-69.6,-0.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
+        <Label Grid.Column="0" Grid.Row="1" FontSize="35" Content="Hours" Grid.ColumnSpan="2" Margin="241,15.2,-212.6,-23.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
+        <Label Grid.Column="1" Grid.Row="1" FontSize="30" Content="Minutes" Margin="41.4,20.2,-288.6,-22.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
+        <Label Grid.Column="1" Grid.Row="1" FontSize="30" Content="Seconds" Margin="189.4,19.2,27.4,-22.2" Foreground="#FFFDFF00"  FontWeight="Bold"/>
     </Grid>
 </Window>
